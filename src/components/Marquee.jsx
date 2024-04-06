@@ -2,7 +2,7 @@ import React from "react";
 import { motion } from "framer-motion";
 
 function Marquee({ direction }) {
-  var names = ["Apurba", "Ankush", "Sayan", "Manish", "Ayan", "Deep"];
+  var names = ["Mouse", "Monirtor", "Keyboard" ,"Speakers", "HArddisk", "Pendrive"];
   return (
     <div className="w-full flex  gap-4  overflow-hidden">
       <motion.div

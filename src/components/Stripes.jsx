@@ -4,7 +4,7 @@ import Stripe from "./Stripe"
 
 function Stripes (){
     
-    var names=["Apurba", "Ankush", "Sayan", "Manish","Ayan","Deep"]
+    var names=["Hardware", "Electronics", "SSD", "Memorycards","Speakers","Bluetooth"]
     return(
        <div className="flex mt-[20vh] mb-20">
        {names.map((elem)=><Stripe name={elem}/>)}
