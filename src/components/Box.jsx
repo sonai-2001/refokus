@@ -1,9 +1,11 @@
 import React from "react";
 import { IoIosArrowRoundForward } from "react-icons/io";
 import Button from "./Button";
-function Box({ width, down,hover }) {
+function Box({ width, down, hover }) {
   return (
-    <div className={`${width} py-3 px-2 bg-zinc-700 rounded hover:${hover} hover:p-[10px]`}>
+    <div
+      className={`${width} py-3 px-2 bg-zinc-700 rounded hover:${hover} hover:p-[10px]`}
+    >
       <div className=" inmain w-full min-h-[30vh]  flex flex-col justify-between">
         <div className="topp ">
           <div className="topptop w-full flex justify-between items-center text-xs font-extralight">
@@ -14,7 +16,9 @@ function Box({ width, down,hover }) {
         </div>
         <div className="down">
           {down == "para" ? (
-            <p className="text-xs font-thin">you can start your project journey from here</p>
+            <p className="text-xs font-thin">
+              you can start your project journey from here
+            </p>
           ) : (
             <>
               <h1 className="text-3xl">start a project</h1>
